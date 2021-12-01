@@ -1,0 +1,18 @@
+.pieDePagina {
+    background-image: linear-gradient(to right, black, rgb(36, 35, 35), rgb(53, 47, 47));
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+footer p {
+    color: brown; 
+}
+  
+ .rounded{
+    width: $widthImage /6;
+    height: auto;
+ }

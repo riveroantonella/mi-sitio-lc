@@ -1,0 +1,26 @@
+section ul li a {
+    color: $colorFuentePrincipal;
+    text-decoration: none;
+  }
+  
+  header {
+    position: sticky;
+    z-index: 2; }
+  
+  header nav section ul {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%; 
+  }
+  
+  
+  .menu {
+    background-image: linear-gradient(to right, black, rgb(36, 35, 35), rgb(53, 47, 47));
+    grid-template-columns: 50% 50%;
+    display: grid; 
+    li {
+      width: 50%;
+      margin: 20px;
+      padding: 5px;
+      list-style: none; 
+    }
+  }

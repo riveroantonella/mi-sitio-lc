@@ -1,0 +1,4 @@
+@import "./variables";
+@for $v from 1 to 7 {
+    .opcion#{$v} {font-size: $fontSize * ($v/2);}
+}

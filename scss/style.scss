@@ -1,0 +1,100 @@
+@import "variables.scss";
+@import "operaciones.scss";
+@import "bucles.scss";
+
+body{
+  background-color: $colorFondo;
+}
+
+/*Menú*/
+@import "./menu.scss";
+
+/*Logo*/
+.menu__img {
+  width: $widthImage /5;
+  height: auto;
+}
+
+.menu__img:hover {
+    transform: rotate(20deg); 
+  }
+/*Titulo*/
+h1 {
+  color: $colorFuentePrincipal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px; 
+}
+
+div em {
+  color: chocolate; }
+
+div label {
+  color: peru; }
+
+div select option {
+  color: saddlebrown; }
+
+  /*Banner*/
+.banner__img{
+  width: 100%;
+  height: auto;
+  margin: 2%;
+}
+
+/*Carrousel*/
+.image-responsive{
+  width: $widthImage /2;
+  height: auto;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+/*Info*/
+.textoPrincipal {
+  color: $colorFuenteSecundario;
+  text-align: center;
+  font-size: 35px; }
+
+.title {
+  text-align: center;
+  letter-spacing: 10px; }
+
+/*Noticias*/
+.textoSecundario {
+  text-align: center; }
+
+.infoPrincipal {
+  display: grid;
+  grid-template-areas: 'video1 textVideo1';
+  grid-column-gap: 2%;
+  justify-items: space-evenly;
+  align-items: center; 
+  .infoPrincipal__video1 {
+    grid-area: video1; 
+    }
+  
+}
+
+.infoPrincipal__textVideo1 {
+    grid-area: textVideo1;
+    font-size: x-large;
+    color: rgb(243, 240, 237);
+    text-align: justify; 
+    }  
+
+section div video {
+  width: 100%; 
+}
+
+/*Pie de página*/
+@import "footer.scss";
+
+.colorEncabezado {
+  background-color: bisque; }
+
+/*Historias*/
+.introHistorias {
+  text-align: center; }
+ .opcion{
+   font-size: $fontSize;
+ }

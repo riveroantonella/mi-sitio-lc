@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*Colores*/
+/*Tamaños*/
+/*Colores*/
+/*Tamaños*/
+.opcion1 {
+  font-size: 15px; }
+
+.opcion2 {
+  font-size: 30px; }
+
+.opcion3 {
+  font-size: 45px; }
+
+.opcion4 {
+  font-size: 60px; }
+
+.opcion5 {
+  font-size: 75px; }
+
+.opcion6 {
+  font-size: 90px; }
+
+body {
+  background-color: black; }
+
+/*Menú*/
+section ul li a {
+  color: red;
+  text-decoration: none; }
+
+header {
+  position: sticky;
+  z-index: 2; }
+
+header nav section ul {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%; }
+
+.menu {
+  background-image: linear-gradient(to right, black, #242323, #352f2f);
+  grid-template-columns: 50% 50%;
+  display: grid; }
+  .menu li {
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    list-style: none; }
+
+/*Logo*/
+.menu__img {
+  width: 100px;
+  height: auto; }
+
+.menu__img:hover {
+  transform: rotate(20deg); }
+
+/*Titulo*/
+h1 {
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px; }
+
+div em {
+  color: chocolate; }
+
+div label {
+  color: peru; }
+
+div select option {
+  color: saddlebrown; }
+
+/*Banner*/
+.banner__img {
+  width: 100%;
+  height: auto;
+  margin: 2%; }
+
+/*Carrousel*/
+.image-responsive {
+  width: 250px;
+  height: auto;
+  margin-top: 5%;
+  padding: 5%; }
+
+/*Info*/
+.textoPrincipal {
+  color: white;
+  text-align: center;
+  font-size: 35px; }
+
+.title {
+  text-align: center;
+  letter-spacing: 10px; }
+
+/*Noticias*/
+.textoSecundario {
+  text-align: center; }
+
+.infoPrincipal {
+  display: grid;
+  grid-template-areas: 'video1 textVideo1';
+  grid-column-gap: 2%;
+  justify-items: space-evenly;
+  align-items: center; }
+  .infoPrincipal .infoPrincipal__video1 {
+    grid-area: video1; }
+
+.infoPrincipal__textVideo1 {
+  grid-area: textVideo1;
+  font-size: x-large;
+  color: #f3f0ed;
+  text-align: justify; }
+
+section div video {
+  width: 100%; }
+
+/*Pie de página*/
+.pieDePagina {
+  background-image: linear-gradient(to right, black, #242323, #352f2f);
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between; }
+
+footer p {
+  color: brown; }
+
+.rounded {
+  width: 83.33333px;
+  height: auto; }
+
+.colorEncabezado {
+  background-color: bisque; }
+
+/*Historias*/
+.introHistorias {
+  text-align: center; }
+
+.opcion {
+  font-size: 30px; }
+
+  .error{
+    display: flex;
+    justify-content: center;
+  }
