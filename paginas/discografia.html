@@ -12,19 +12,44 @@
 </head>
 <body>
     <header><!--Menú-->
-        <nav>
-            <section class="menu">
-              <img class="menu__img" src="../multimedia/imagenes/lcsymbol.jpg" alt="Logo de la banda">
-                <ul class="menu__options">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./integrantes.html">Integrantes</a></li>
-                    <li><a href="./discografia.html">Discografia</a></li>
-                    <li><a href="./giras.html">Giras</a></li>
-                    <li><a href="./redesoficiales.html">Redes Oficiales</a></li>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Lacuna Coil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/integrantes.html">Integrantes</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item" href="./paginas/discografia.html">Discografía</a></li>
+                      <li><a class="dropdown-item" href="./paginas/giras.html">Giras</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="./paginas/redesoficiales.html">Redes Oficiales</a></li>
+                    </ul>
+                  </li>
                 </ul>
-            </section>
-        </nav>  
-    </header> 
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header> 
     <main>
         <section>
             <h1>Discografia</h1>

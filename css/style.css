@@ -47,6 +47,10 @@ header nav section ul {
     padding: 5px;
     list-style: none; }
 
+.navbar-brand{
+  color: red;
+}
+
 /*Logo*/
 .menu__img {
   width: 100px;
@@ -74,11 +78,11 @@ div select option {
 .banner__img {
   width: 100%;
   height: auto;
-  margin: 2%; }
+}
 
 /*Carrousel*/
 .image-responsive {
-  width: 250px;
+  width: 80%;
   height: auto;
   margin-top: 5%;
   padding: 5%; }
@@ -110,7 +114,8 @@ div select option {
   grid-area: textVideo1;
   font-size: x-large;
   color: #f3f0ed;
-  text-align: justify; }
+  text-align: center;
+}
 
 section div video {
   width: 100%; }
